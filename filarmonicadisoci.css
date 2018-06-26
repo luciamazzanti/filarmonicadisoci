@@ -1,0 +1,40 @@
+h1 {
+	font-family: cursive;
+	font-size: 55px;
+}
+
+p {
+	font-family: cursive;
+	font-size: 25px;
+	transform: translate(0%, -60%);
+}
+
+#fotohome {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	width: 100%;
+}
+
+#rettangoloopaco {
+	width: 290px;
+	height: 285px;
+	background-color: grey;
+	opacity: 0.70;
+	position: absolute;
+	top: 13%;
+	left: 7%;
+	border: none;
+	color: white;
+	border-radius: 25px;
+}
+
+li {
+	padding-bottom: 30px;
+}
+
+ul {
+	padding: 30px;
+}
