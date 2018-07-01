@@ -1,31 +1,39 @@
 body {
     background-color: grey;
-    color: #ffffff;
     background-image: url('stemmascontornatoopaco.png');
     background-repeat: no-repeat;
-    background-size: 43%;
-    background-position: 90% 25%;
+    background-size: 50%;
+    background-position: 130% 100%;
+    margin-right: 0; 
 }
 
 
 #italic {
-	font-style: italic;
+    font-style: italic;
 }
 
 header {
+    font-family: Fertigo Regular, serif;
     padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    top: 20%;
+    color: #0c0caf;
+    font-size: 25px;
+    margin-left: 40px;
 }
 
 article {
-	color: #e0e0e0;
-	padding-left: 40px;
-	padding-right: 30px;
+    color: #e0e0e0;
+    padding-left: 40px;
+    padding-right: 30px;
+    width: 750px;
+    margin-left: 300px;
+    font-size: 20px;
 }
 
 footer {
-    color: #c9c9c9;
+    color: #e0e0e0;
     padding-top: 20px;
     padding-left: 40px;
 }
@@ -44,9 +52,9 @@ footer {
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 15px;
-    position: absolute;
-    right: 5%;
-    bottom: 5%;
+    position: relative;
+    left: 85%;
+    bottom: 30%;
 }
 
 .button:hover {
@@ -76,4 +84,15 @@ a:active {
     color: green;
     background-color: transparent;
     text-decoration: underline;
+}
+
+#striscia {
+    background-color: #f6f6f6;
+    width: all;
+    height: 100px;
+    padding-top: 1px;
+    padding-left: 80px;
+    padding-bottom: 5px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
